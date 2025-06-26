@@ -9,16 +9,16 @@
 ```
 /furniture-warehouse
 └── sql
-    ├── warehouse.sql        # SQL script for creating and populating tables with sample data
-    ├── joins.sql            # Example queries for manipulating inventory
+    ├── warehouse.sql       # SQL script for creating and populating tables with sample data
+    ├── joins.sql           # Example queries for manipulating inventory
     ├── views.sql
     ├── ...    
 └── docs                     
     ├── images
-    ├── task.pdf
-    ├── documentation.pdf
+    ├── task.pdf            # Task condition for the project
+    ├── documentation.pdf   # Simple project documentation 
 └── LICENCE        
-└── README.md                # Project overview
+└── README.md               # Project overview
 ```
 
 ## Features
@@ -35,22 +35,22 @@
 
 ## Getting started
 ### Recuirements
-SQL-compatible database system (MySQL, SQL Server)  
-SQL client or command-line tool
+&nbsp;&nbsp; - SQL-compatible database system (MySQL, SQL Server)  
+&nbsp;&nbsp; - SQL client or command-line tool
 
 ### Setup
-1. Clone the repository:
+1. **Clone** the repository:
     ```bash
     git clone https://github.com/monnicam88/furniture-warehouse.git
     cd furniture-warehouse
     ```
-2. Open your SQL client and connect to your database.
-3. Run the schema script to create the necessary tables and to insert example records:
+2. **Open** your SQL client and **connect** to your database.
+3. **Run** the schema script to create the necessary tables and to insert example records:
     ```sql
     -- Example: For MySQL
     SOURCE warehouse.sql;
     ```
-4. Use the provided query scripts (such as `joins.sql`, etc.) to interact with your data.
+4. **Use** the provided query scripts (such as `joins.sql`, etc.) to interact with your data.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request. For major changes, open an issue first to discuss your ideas.
