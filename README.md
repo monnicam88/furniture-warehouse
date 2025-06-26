@@ -8,7 +8,6 @@
 
 ```
 furniture-warehouse/
-│
 ├── sql/
 │   ├── warehouse.sql       # SQL script for creating and populating tables with sample data
 │   ├── joins.sql           # Example queries for manipulating inventory
