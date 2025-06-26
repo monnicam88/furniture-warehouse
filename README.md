@@ -7,17 +7,18 @@
 ## Structure
 
 ```
-/furniture-warehouse
-└── sql
-    ├── warehouse.sql       # SQL script for creating and populating tables with sample data
-    ├── joins.sql           # Example queries for manipulating inventory
-    ├── views.sql
-    ├── ...    
-└── docs                     
-    ├── images
-    ├── task.pdf            # Task condition for the project
-    ├── documentation.pdf   # Simple project documentation 
-└── LICENCE        
+furniture-warehouse/
+│
+├── sql/
+│   ├── warehouse.sql       # SQL script for creating and populating tables with sample data
+│   ├── joins.sql           # Example queries for manipulating inventory
+│   ├── views.sql
+│   └── ...    
+├── docs/                     
+│   ├── images
+│   ├── task.pdf            # Task condition for the project
+│   └── documentation.pdf   # Simple project documentation 
+├── LICENCE        
 └── README.md               # Project overview
 ```
 
